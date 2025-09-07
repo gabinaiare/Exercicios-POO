@@ -357,18 +357,20 @@ public class lista1Java {
 
     public static void questao16(){
         Scanner input = new Scanner(System.in);
-        int a, b;
+         int a, b;
 
-        System.out.print("Digite dois valores: ");
+        System.out.print("Digite o primeiro número: ");
         a = input.nextInt();
+
+        System.out.print("Digite o segundo número: ");
         b = input.nextInt();
 
         if (a > b) {
-            System.out.printf("O maior é %d e o menor é %d, sua diferença é %d", a, b, a - b);
-        }else if (a < b) {
-            System.out.printf("O maior é %d e o menor é %d, sua diferença é %d", b, a, b - a);
-        }else{
-            System.out.print("São iguais, não há diferença!");
+            System.out.printf("Maior número: %d\nMenor número: %d\n", a, b);
+        } else if (b > a) {
+            System.out.printf("Maior número: %d\nMenor número: %d\n", b, a);
+        } else {
+            System.out.print("Os dois números são iguais");
         }
 
     }
