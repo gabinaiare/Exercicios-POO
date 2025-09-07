@@ -485,8 +485,8 @@ public class lista1Java {
         if (c < menor) menor = c;
 
         double divisao = maior / menor;
-        System.out.printf("Menor * Maior = ", menor * maior);
-        System.out.printf("Maior / Menor = ", divisao);
+        System.out.printf("Menor * Maior = %d", menor * maior);
+        System.out.printf("Maior / Menor = %.2f", divisao);
     }
 
     public static void questao21(){
