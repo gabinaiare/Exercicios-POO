@@ -27,6 +27,12 @@ public class Main {
         18 -> Questão 18
         19 -> Questão 19
         20 -> Questão 20
+        21 -> Questão 21
+        22 -> Questão 22
+        23 -> Questão 23
+        24 -> Questão 24
+        25 -> Questão 25
+        26 -> Questão 26
         """);
         int opcao = input.nextInt();
 
@@ -110,6 +116,30 @@ public class Main {
             case 20:
                 Questao20 q20 = new Questao20();
                 q20.run();
+                break;
+            case 21:
+                Questao21 q21 = new Questao21();
+                q21.run();
+                break;
+            case 22:
+                Questao22 q22 = new Questao22();
+                q22.run();
+                break;
+            case 23:
+                Questao24 q23 = new Questao24();
+                q23.run();
+                break;
+            case 24:
+                Questao24 q24 = new Questao24();
+                q24.run();
+                break;
+            case 25:
+                Questao25 q25 = new Questao25();
+                q25.run();
+                break;
+            case 26:
+                Questao26 q26 = new Questao26();
+                q26.run();
                 break;
             default:
                 break;
